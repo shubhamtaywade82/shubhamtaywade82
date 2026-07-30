@@ -49,7 +49,7 @@ The DhanHQ platform provides end-to-end programmatic trading on Indian exchanges
 
 | Project | Description |
 |---------|-------------|
-| [**expense_pro**](https://github.com/shubhamtaywade82/expense_pro) | Full-stack expense tracking application. |
+| [**expense_pro**](https://github.com/shubhamtaywade82/expense_pro) | Rails 8 expense tracking application with PostgreSQL. |
 | [**janus**](https://github.com/shubhamtaywade82/janus) | Multi-protocol gateway service. |
 | [**aegis**](https://github.com/shubhamtaywade82/aegis) | Authentication and authorization framework in Ruby. |
 | [**chatbot**](https://github.com/shubhamtaywade82/chatbot) | Ruby conversational AI chatbot. |
