@@ -1,0 +1,36 @@
+# tradesdontlie GitHub Profile Configuration
+
+# Profile Settings
+username: tradesdontlie
+theme: dark
+show_stars: true
+show_forks: false
+show_watchers: false
+
+# Card Settings
+card_regeneration_schedule: "0 0 * * 0"  # Weekly on Sunday
+card_projects:
+  - trading-agent-ts
+  - devagent-ts
+  - nemesis-ai
+  - dhanhq-ts
+  - pinescript-compiler
+  - tradingview-mcp
+  - pine-script-v6-extension
+  - pinescript-development-workspace
+  - task-manager-mcp
+  - prop-firm-monte-carlo
+  - dhanhq-charts
+  - dhanhq-mcp
+
+# Snake Animation
+snake_schedule: "0 */6 * * *"  # Every 6 hours
+snake_palette: github-dark
+
+# 3D Contribution Graph
+contrib_3d_enabled: true
+contrib_3d_source: "https://github.com/lowlighter/3d-contrib"
+
+# Stats Sources
+activity_graph: "https://github-readme-activity-graph.vercel.app"
+streak_stats: "https://streak-stats.demolab.com"

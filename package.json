@@ -1,0 +1,22 @@
+{
+  "name": "tradesdontlie-profile",
+  "version": "1.0.0",
+  "description": "GitHub profile repository for tradesdontlie",
+  "private": true,
+  "scripts": {
+    "generate:cards": "node scripts/generate-cards.js",
+    "generate:cards:watch": "node scripts/generate-cards.js --watch"
+  },
+  "keywords": [
+    "github-profile",
+    "trading",
+    "ai",
+    "mcp",
+    "pine-script"
+  ],
+  "author": "tradesdontlie",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

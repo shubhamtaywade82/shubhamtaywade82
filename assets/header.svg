@@ -1,0 +1,71 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#161b22"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3fb950"/>
+      <stop offset="50%" style="stop-color:#00d4aa"/>
+      <stop offset="100%" style="stop-color:#58a6ff"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f85149"/>
+      <stop offset="100%" style="stop-color:#a371f7"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bgGrad)"/>
+  <rect width="1280" height="320" fill="url(#grid)" opacity="0.3"/>
+  
+  <text x="640" y="130" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="56" font-weight="700" fill="url(#textGrad)" filter="url(#glow)">tradesdontlie</text>
+  
+  <text x="640" y="185" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="20" fill="#8b949e" letter-spacing="1.5">trades don't lie</text>
+  
+  <g transform="translate(640, 230)">
+    <rect x="-200" y="-4" width="400" height="8" rx="4" fill="#21262d"/>
+    <rect x="-200" y="-4" width="200" height="8" rx="4" fill="url(#accentGrad)">
+      <animate attributeName="width" from="0" to="400" dur="3s" repeatCount="indefinite" fill="freeze"/>
+      <animate attributeName="x" from="0" to="-200" dur="3s" repeatCount="indefinite" fill="freeze"/>
+    </rect>
+  </g>
+  
+  <g transform="translate(640, 260)">
+    <text x="-150" y="0" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="12" fill="#484f58">AI</text>
+    <text x="0" y="0" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#484f58">TRADING</text>
+    <text x="150" y="0" text-anchor="start" font-family="'JetBrains Mono', monospace" font-size="12" fill="#484f58">INFRA</text>
+  </g>
+  
+  <g transform="translate(100, 100)">
+    <circle cx="0" cy="0" r="3" fill="#3fb950" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g transform="translate(1180, 100)">
+    <circle cx="0" cy="0" r="3" fill="#00d4aa" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="3;6;3" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g transform="translate(100, 220)">
+    <circle cx="0" cy="0" r="2" fill="#58a6ff" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g transform="translate(1180, 220)">
+    <circle cx="0" cy="0" r="2" fill="#a371f7" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
