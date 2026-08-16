@@ -1,54 +1,47 @@
-# shubhamtaywade82
+<div align="center">
 
-![header](assets/header.svg)
+<img src="assets/header.svg" alt="shubhamtaywade82 — building trading infrastructure, dev tooling & ai agents" width="100%"/>
 
-*I build trading infrastructure, developer tooling, AI agents, and production SDKs — primarily in Ruby, TypeScript, and Python.*
+<br/>
 
----
+*I build the tools that sit between markets and machines — DhanHQ SDKs, trading bots, MCP servers, and AI agent runtimes. If a strategy can be automated, an API can be wrapped, or a workflow can be agentified, I'm probably shipping it — in Ruby, TypeScript, and Python.*
+
+</div>
 
 ## 📈 shipping
 
-[![dhanhq-ts](assets/cards/dhanhq-ts.svg)](https://github.com/shubhamtaywade82/dhanhq-ts)
-[![dhanhq-client](assets/cards/dhanhq-client.svg)](https://github.com/shubhamtaywade82/dhanhq-client)
-[![dhanhq-charts](assets/cards/dhanhq-charts.svg)](https://github.com/shubhamtaywade82/dhanhq-charts)
-[![dhanhq-mcp](assets/cards/dhanhq-mcp.svg)](https://github.com/shubhamtaywade82/dhanhq-mcp)
-[![algo-trading-api](assets/cards/algo-trading-api.svg)](https://github.com/shubhamtaywade82/algo_trading_api)
-[![trading-agent-ts](assets/cards/trading-agent-ts.svg)](https://github.com/shubhamtaywade82/trading-agent-ts)
-[![trading-concepts-ts](assets/cards/trading-concepts-ts.svg)](https://github.com/shubhamtaywade82/trading-concepts-ts)
-[![pineforge-platform](assets/cards/pineforge-platform.svg)](https://github.com/shubhamtaywade82/pineforge-platform)
-[![pinescript-skills](assets/cards/pinescript-skills.svg)](https://github.com/shubhamtaywade82/pinescript-skills)
-[![devagent-ts](assets/cards/devagent-ts.svg)](https://github.com/shubhamtaywade82/devagent-ts)
-[![nemesis-ai](assets/cards/nemesis-ai.svg)](https://github.com/shubhamtaywade82/nemesis-ai)
-[![ollama-client](assets/cards/ollama-client.svg)](https://github.com/shubhamtaywade82/ollama-client)
+<div align="center">
 
-*Cards regenerate weekly with live star counts via GitHub Actions — no third-party stat services to break.*
+<a href="https://github.com/shubhamtaywade82/dhanhq-ts"><img src="assets/cards/dhanhq-ts.svg" alt="dhanhq-ts" width="420"/></a>
+<a href="https://github.com/shubhamtaywade82/dhanhq-client"><img src="assets/cards/dhanhq-client.svg" alt="dhanhq-client" width="420"/></a>
+<a href="https://github.com/shubhamtaywade82/trading-agent-ts"><img src="assets/cards/trading-agent-ts.svg" alt="trading-agent-ts" width="420"/></a>
+<a href="https://github.com/shubhamtaywade82/devagent-ts"><img src="assets/cards/devagent-ts.svg" alt="devagent-ts" width="420"/></a>
+<a href="https://github.com/shubhamtaywade82/dhanhq-mcp"><img src="assets/cards/dhanhq-mcp.svg" alt="dhanhq-mcp" width="420"/></a>
+<a href="https://github.com/shubhamtaywade82/ollama-client"><img src="assets/cards/ollama-client.svg" alt="ollama-client" width="420"/></a>
 
----
+<sub>cards regenerate weekly with live star counts — no third-party stat services to break</sub>
+
+</div>
 
 ## 🧰 stack
 
-![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3fb950)
+<div align="center">
+
+![Ruby](https://img.shields.io/badge/Ruby_·_Rails-0d1117?style=for-the-badge&logo=ruby&logoColor=3fb950)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3fb950)
-![Ruby](https://img.shields.io/badge/Ruby-0d1117?style=for-the-badge&logo=ruby&logoColor=3fb950)
-![Rust](https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=3fb950)
-![Pine Script](https://img.shields.io/badge/Pine_Script_v6-0d1117?style=for-the-badge&logo=tradingview&logoColor=3fb950)
-![C#](https://img.shields.io/badge/C%23-0d1117?style=for-the-badge&logo=dotnet&logoColor=3fb950)
-![Claude](https://img.shields.io/badge/Claude_Code-0d1117?style=for-the-badge&logo=anthropic&logoColor=3fb950)
+![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3fb950)
+![DhanHQ](https://img.shields.io/badge/DhanHQ_API-0d1117?style=for-the-badge&logo=stockx&logoColor=3fb950)
 ![MCP](https://img.shields.io/badge/MCP_Servers-0d1117?style=for-the-badge&logo=modelcontextprotocol&logoColor=3fb950)
-![CUDA](https://img.shields.io/badge/CUDA_RTX_5090-0d1117?style=for-the-badge&logo=nvidia&logoColor=3fb950)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=3fb950)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-0d1117?style=for-the-badge&logo=kubernetes&logoColor=3fb950)
-![Redis](https://img.shields.io/badge/Redis-0d1117?style=for-the-badge&logo=redis&logoColor=3fb950)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=3fb950)
-![SQLite](https://img.shields.io/badge/SQLite-0d1117?style=for-the-badge&logo=sqlite&logoColor=3fb950)
-![Vector DB](https://img.shields.io/badge/Vector_DB-0d1117?style=for-the-badge&logo=pinecone&logoColor=3fb950)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0d1117?style=for-the-badge&logo=githubactions&logoColor=3fb950)
+![Ollama](https://img.shields.io/badge/Ollama_·_Local_LLMs-0d1117?style=for-the-badge&logo=ollama&logoColor=3fb950)
+![Rust](https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=3fb950)
 
----
+</div>
 
-## 🏗️ featured projects
+## 📚 project map
 
-### DhanHQ Ecosystem
+### DhanHQ ecosystem
+
+End-to-end programmatic trading on Indian exchanges (NSE/BSE/MCX) — from low-level API clients to live trading bots and agent frameworks.
 
 | Project | Description |
 |---------|-------------|
@@ -58,7 +51,7 @@
 | [**dhanhq-mcp**](https://github.com/shubhamtaywade82/dhanhq-mcp) | MCP server integrating Dhan trade execution with AI agent runtimes. |
 | [**algo_trading_api**](https://github.com/shubhamtaywade82/algo_trading_api) | Integrated trading API built on DhanHQ. |
 
-### Trading Infrastructure
+### Trading infrastructure
 
 | Project | Description |
 |---------|-------------|
@@ -75,7 +68,7 @@
 | [**pinescript-skills**](https://github.com/shubhamtaywade82/pinescript-skills) | PineScript skill collection for TradingView indicators and strategies. |
 | [**binance-client-js**](https://github.com/shubhamtaywade82/binance-client-js) | JavaScript client for the Binance API. |
 
-### AI & Agent Runtimes
+### AI & agent runtimes
 
 | Project | Description |
 |---------|-------------|
@@ -89,27 +82,41 @@
 | [**ollama-server**](https://github.com/shubhamtaywade82/ollama-server) | Python server infrastructure for Ollama deployments. |
 | [**ollama-ecosystem**](https://github.com/shubhamtaywade82/ollama-ecosystem) | Tools, patterns, and integrations for the Ollama ecosystem. |
 
-### Other Projects
+### Other projects
 
 | Project | Description |
 |---------|-------------|
-| [**expense_pro**](https://github.com/shubhamtaywade82/expense_pro) | Rails 8 expense tracking application with PostgreSQL. |
+| [**expense_pro**](https://github.com/shubhamtaywade82/expense_pro) | Full-stack expense tracking application. |
 | [**janus**](https://github.com/shubhamtaywade82/janus) | Multi-protocol gateway service. |
 | [**aegis**](https://github.com/shubhamtaywade82/aegis) | Authentication and authorization framework in Ruby. |
 | [**chatbot**](https://github.com/shubhamtaywade82/chatbot) | Ruby conversational AI chatbot. |
 
----
-
 ## 📊 the tape
 
-![3d contribution graph](profile-3d-contrib/profile-skyline.svg)
+<div align="center">
 
-![commit activity](https://github-readme-activity-graph.vercel.app/graph?username=shubhamtaywade82&bg_color=0d1117&color=8b949e&line=00d4aa&point=3fb950&area=true&hide_border=true&custom_title=commit%20flow&radius=8)
+<img src="profile-3d-contrib/profile-skyline.svg" alt="3d contribution graph" width="100%"/>
 
-![streak](https://streak-stats.demolab.com?user=shubhamtaywade82&background=0d1117&ring=00d4aa&fire=f85149&currStreakLabel=00d4aa&sideLabels=8b949e&currStreakNum=e6edf3&sideNums=e6edf3&dates=8b949e&border=30363d)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shubhamtaywade82&bg_color=0d1117&color=8b949e&line=00d4aa&point=3fb950&area=true&hide_border=true&custom_title=commit%20flow&radius=8" alt="commit activity" width="94%"/>
 
-![contribution snake](https://raw.githubusercontent.com/shubhamtaywade82/shubhamtaywade82/output/github-snake.svg)
+<br/><br/>
+
+<img height="170" src="https://streak-stats.demolab.com?user=shubhamtaywade82&background=0d1117&ring=00d4aa&fire=f85149&currStreakLabel=00d4aa&sideLabels=8b949e&currStreakNum=e6edf3&sideNums=e6edf3&dates=8b949e&border=30363d" alt="streak"/>
+
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/shubhamtaywade82/shubhamtaywade82/output/github-snake.svg" alt="contribution snake" width="100%"/>
+
+</div>
 
 ---
 
+<div align="center">
+
+`the market doesn't care about your feelings. neither does the compiler.`
+
 **Open to collaborations** — trading systems, agent infrastructure, SDK design, and developer tooling.
+
+</div>
+
+---

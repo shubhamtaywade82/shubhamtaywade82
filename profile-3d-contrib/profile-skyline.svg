@@ -1,34 +1,6 @@
-<svg width="1280" height="400" viewBox="0 0 1280 400" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="skyBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117"/>
-      <stop offset="100%" style="stop-color:#161b22"/>
-    </linearGradient>
-    <linearGradient id="buildingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#3fb950"/>
-      <stop offset="100%" style="stop-color:#0d1117"/>
-    </linearGradient>
-  </defs>
-  <rect width="1280" height="400" fill="url(#skyBg)"/>
-  
-  <text x="640" y="200" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="18" fill="#30363d">
-    Generate your 3D contribution graph at:
+<svg width="880" height="200" viewBox="0 0 880 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="880" height="200" fill="#0d1117"/>
+  <text x="440" y="104" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="14" fill="#8b949e">
+    3D contribution graph renders after the first "build profile assets" workflow run
   </text>
-  <text x="640" y="230" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="16" fill="#58a6ff">
-    github.com/lowlighter/3d-contrib
-  </text>
-  <text x="640" y="260" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" fill="#8b949e">
-    Then replace this file: profile-3d-contrib/profile-skyline.svg
-  </text>
-  
-  <g transform="translate(100, 300)">
-    <rect x="0" y="0" width="1080" height="2" fill="#30363d"/>
-    <text x="0" y="-10" font-family="'JetBrains Mono', monospace" font-size="10" fill="#484f58">Mon</text>
-    <text x="154" y="-10" font-family="'JetBrains Mono', monospace" font-size="10" fill="#484f58">Tue</text>
-    <text x="308" y="-10" font-family="'JetBrains Mono', monospace" font-size="10" fill="#484f58">Wed</text>
-    <text x="462" y="-10" font-family="'JetBrains Mono', monospace" font-size="10" fill="#484f58">Thu</text>
-    <text x="616" y="-10" font-family="'JetBrains Mono', monospace" font-size="10" fill="#484f58">Fri</text>
-    <text x="770" y="-10" font-family="'JetBrains Mono', monospace" font-size="10" fill="#484f58">Sat</text>
-    <text x="924" y="-10" font-family="'JetBrains Mono', monospace" font-size="10" fill="#484f58">Sun</text>
-  </g>
 </svg>

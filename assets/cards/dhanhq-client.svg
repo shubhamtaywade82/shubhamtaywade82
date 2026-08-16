@@ -5,9 +5,9 @@
   <g transform="translate(22, 24)">
     <path d="M4 1.5H3a2 2 0 0 0-2 2V13a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1" stroke="#8b949e" stroke-width="1.4" fill="none" transform="scale(1.15)"/>
   </g>
-  <text x="46" y="40" font-family="'JetBrains Mono','Consolas',monospace" font-size="17" font-weight="700" fill="#00d4aa">dhanhq-mcp</text>
-  <text x="24" y="78" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="13" fill="#8b949e">MCP server integrating Dhan trade execution with AI</text><text x="24" y="98" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="13" fill="#8b949e">agent runtimes.</text>
-  <circle cx="30" cy="124" r="5" fill="#3178c6"/><text x="42" y="129" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#8b949e">TypeScript</text>
+  <text x="46" y="40" font-family="'JetBrains Mono','Consolas',monospace" font-size="17" font-weight="700" fill="#00d4aa">dhanhq-client</text>
+  <text x="24" y="78" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="13" fill="#8b949e">Ruby SDK for the Dhan API — ActiveModel models,</text><text x="24" y="98" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="13" fill="#8b949e">WebSocket streaming, order mgmt, Rails integration.</text>
+  <circle cx="30" cy="124" r="5" fill="#701516"/><text x="42" y="129" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#8b949e">Ruby</text>
   <g transform="translate(220, 115)">
     <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#e3b341" transform="scale(0.9)"/>
     <text x="20" y="12" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#e6edf3">0</text>

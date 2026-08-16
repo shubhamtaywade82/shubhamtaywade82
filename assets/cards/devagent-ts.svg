@@ -1,32 +1,17 @@
-<svg width="300" height="140" viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#161b22"/>
-      <stop offset="100%" style="stop-color:#0d1117"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#3fb950"/>
-      <stop offset="100%" style="stop-color:#3fb950cc"/>
-    </linearGradient>
-    <filter id="cardGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <rect width="300" height="140" rx="12" fill="url(#cardBg)" stroke="#30363d" stroke-width="1"/>
-  <rect x="0" y="0" width="300" height="4" rx="12" fill="url(#accent)"/>
-  
-  <text x="20" y="40" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="600" fill="#e6edf3">devagent-ts</text>
-  
-  <text x="20" y="70" font-family="'JetBrains Mono', monospace" font-size="12" fill="#8b949e">shubhamtaywade82/devagent-ts</text>
-  
-  <g transform="translate(20, 100)">
-    <circle cx="0" cy="0" r="3" fill="#3fb950" opacity="0.8"/>
-    <text x="10" y="4" font-family="'JetBrains Mono', monospace" font-size="12" fill="#3fb950" font-weight="600">0</text>
-    <text x="10" y="20" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8b949e">stars</text>
+<svg width="420" height="150" viewBox="0 0 420 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="419" height="149" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <path d="M 330 44 L 348 36 L 362 40 L 378 26 L 396 18" stroke="#00d4aa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+  <path d="M 330 44 L 348 36 L 362 40 L 378 26 L 396 18 L 396 52 L 330 52 Z" fill="#00d4aa" opacity="0.07"/>
+  <g transform="translate(22, 24)">
+    <path d="M4 1.5H3a2 2 0 0 0-2 2V13a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1" stroke="#8b949e" stroke-width="1.4" fill="none" transform="scale(1.15)"/>
   </g>
-  
-  <g transform="translate(260, 100)">
-    <text x="0" y="4" font-family="'JetBrains Mono', monospace" font-size="12" fill="#484f58" text-anchor="end">⭐</text>
+  <text x="46" y="40" font-family="'JetBrains Mono','Consolas',monospace" font-size="17" font-weight="700" fill="#00d4aa">devagent-ts</text>
+  <text x="24" y="78" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="13" fill="#8b949e">TypeScript developer automation framework.</text>
+  <circle cx="30" cy="124" r="5" fill="#3178c6"/><text x="42" y="129" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#8b949e">TypeScript</text>
+  <g transform="translate(220, 115)">
+    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#e3b341" transform="scale(0.9)"/>
+    <text x="20" y="12" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#e6edf3">0</text>
+    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z" fill="#8b949e" transform="translate(64,0) scale(0.9)"/>
+    <text x="84" y="12" font-family="'Segoe UI',Ubuntu,sans-serif" font-size="12" fill="#e6edf3">0</text>
   </g>
 </svg>
