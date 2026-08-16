@@ -1,0 +1,87 @@
+<svg width="880" height="240" viewBox="0 0 880 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="880" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d4aa" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00d4aa"/>
+      <stop offset="1" stop-color="#00d4aa" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="880" height="240" rx="12"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- terminal background -->
+    <rect width="880" height="240" fill="#0d1117"/>
+
+    <!-- grid -->
+    <g stroke="#1c2431" stroke-width="1">
+      <line x1="0" y1="60" x2="880" y2="60"/>
+      <line x1="0" y1="110" x2="880" y2="110"/>
+      <line x1="0" y1="160" x2="880" y2="160"/>
+      <line x1="110" y1="0" x2="110" y2="210"/>
+      <line x1="220" y1="0" x2="220" y2="210"/>
+      <line x1="330" y1="0" x2="330" y2="210"/>
+      <line x1="440" y1="0" x2="440" y2="210"/>
+      <line x1="550" y1="0" x2="550" y2="210"/>
+      <line x1="660" y1="0" x2="660" y2="210"/>
+      <line x1="770" y1="0" x2="770" y2="210"/>
+    </g>
+
+    <!-- candlesticks (staggered rise, 12s loop: rise, hold, fade, replay) -->
+    <g opacity="0.85">
+      <g><line x1="490" y1="150" x2="490" y2="196" stroke="#f85149" stroke-width="2"/><rect x="482" y="158" width="16" height="30" rx="2" fill="#f85149"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.017;0.058;0.9;0.958;1" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 20;0 20;0 0;0 0" keyTimes="0;0.017;0.058;1" dur="12s" repeatCount="indefinite"/></g>
+      <g><line x1="530" y1="138" x2="530" y2="192" stroke="#3fb950" stroke-width="2"/><rect x="522" y="146" width="16" height="38" rx="2" fill="#3fb950"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.042;0.083;0.9;0.958;1" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 20;0 20;0 0;0 0" keyTimes="0;0.042;0.083;1" dur="12s" repeatCount="indefinite"/></g>
+      <g><line x1="570" y1="120" x2="570" y2="172" stroke="#3fb950" stroke-width="2"/><rect x="562" y="128" width="16" height="36" rx="2" fill="#3fb950"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.067;0.108;0.9;0.958;1" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 20;0 20;0 0;0 0" keyTimes="0;0.067;0.108;1" dur="12s" repeatCount="indefinite"/></g>
+      <g><line x1="610" y1="128" x2="610" y2="170" stroke="#f85149" stroke-width="2"/><rect x="602" y="136" width="16" height="26" rx="2" fill="#f85149"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.092;0.133;0.9;0.958;1" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 20;0 20;0 0;0 0" keyTimes="0;0.092;0.133;1" dur="12s" repeatCount="indefinite"/></g>
+      <g><line x1="650" y1="98" x2="650" y2="152" stroke="#3fb950" stroke-width="2"/><rect x="642" y="106" width="16" height="38" rx="2" fill="#3fb950"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.117;0.158;0.9;0.958;1" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 20;0 20;0 0;0 0" keyTimes="0;0.117;0.158;1" dur="12s" repeatCount="indefinite"/></g>
+      <g><line x1="690" y1="76" x2="690" y2="130" stroke="#3fb950" stroke-width="2"/><rect x="682" y="84" width="16" height="38" rx="2" fill="#3fb950"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.142;0.183;0.9;0.958;1" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 20;0 20;0 0;0 0" keyTimes="0;0.142;0.183;1" dur="12s" repeatCount="indefinite"/></g>
+      <g><line x1="730" y1="84" x2="730" y2="122" stroke="#f85149" stroke-width="2"/><rect x="722" y="92" width="16" height="22" rx="2" fill="#f85149"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.167;0.208;0.9;0.958;1" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 20;0 20;0 0;0 0" keyTimes="0;0.167;0.208;1" dur="12s" repeatCount="indefinite"/></g>
+      <g><line x1="770" y1="52" x2="770" y2="110" stroke="#3fb950" stroke-width="2"/><rect x="762" y="60" width="16" height="42" rx="2" fill="#3fb950"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.192;0.233;0.9;0.958;1" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 20;0 20;0 0;0 0" keyTimes="0;0.192;0.233;1" dur="12s" repeatCount="indefinite"/></g>
+      <g><line x1="810" y1="30" x2="810" y2="90" stroke="#3fb950" stroke-width="2"/><rect x="802" y="38" width="16" height="44" rx="2" fill="#3fb950"/>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.217;0.258;0.9;0.958;1" dur="12s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 20;0 20;0 0;0 0" keyTimes="0;0.217;0.258;1" dur="12s" repeatCount="indefinite"/></g>
+    </g>
+
+    <!-- trend line drawing itself (loops with the candles) -->
+    <path d="M 470 170 L 530 160 L 570 140 L 610 146 L 650 118 L 690 96 L 730 100 L 770 72 L 830 40"
+          stroke="#00d4aa" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+          stroke-dasharray="420" stroke-dashoffset="420" opacity="0.9">
+      <animate attributeName="stroke-dashoffset" values="420;420;0;0" keyTimes="0;0.025;0.258;1" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.9;0;0" keyTimes="0;0.9;0.958;1" dur="12s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- title block -->
+    <text x="48" y="102" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="40" font-weight="700" fill="#e6edf3" letter-spacing="-1">shubham<tspan fill="#00d4aa">taywade</tspan></text>
+    <text x="48" y="102" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="40" font-weight="700" fill="#00d4aa" opacity="0">_
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.49;0.5;0.99;1" dur="1.2s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="50" y="136" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="15" fill="#8b949e">$ building trading infra, dev tooling &amp; ai agents</text>
+    <text x="50" y="162" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="15" fill="#8b949e">$ ruby &#183; typescript &#183; python &#183; dhanhq &#183; mcp</text>
+
+    <!-- status pill -->
+    <rect x="48" y="182" width="196" height="26" rx="13" fill="#0f2318" stroke="#1f4a2e"/>
+    <circle cx="66" cy="195" r="4" fill="#3fb950">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="78" y="200" font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12" fill="#3fb950">MARKET OPEN &#183; SHIPPING</text>
+
+    <!-- scrolling ticker tape -->
+    <rect x="0" y="212" width="880" height="28" fill="#010409"/>
+    <line x1="0" y1="212" x2="880" y2="212" stroke="url(#glow)" stroke-width="1"/>
+    <g font-family="'JetBrains Mono','Fira Code','Consolas',monospace" font-size="12">
+      <text y="230" fill="#8b949e">
+        <tspan fill="#3fb950">&#9650;</tspan> DHANHQ-TS&#160;&#160;&#160;<tspan fill="#3fb950">&#9650;</tspan> DHANHQ-CLIENT&#160;&#160;&#160;<tspan fill="#3fb950">&#9650;</tspan> TRADING-AGENT-TS&#160;&#160;&#160;<tspan fill="#3fb950">&#9650;</tspan> DEVAGENT-TS&#160;&#160;&#160;<tspan fill="#3fb950">&#9650;</tspan> DHANHQ-MCP&#160;&#160;&#160;<tspan fill="#3fb950">&#9650;</tspan> OLLAMA-CLIENT&#160;&#160;&#160;<tspan fill="#3fb950">&#9650;</tspan> DHANHQ-TS&#160;&#160;&#160;<tspan fill="#3fb950">&#9650;</tspan> DHANHQ-CLIENT&#160;&#160;&#160;<tspan fill="#3fb950">&#9650;</tspan> TRADING-AGENT-TS&#160;&#160;&#160;<tspan fill="#3fb950">&#9650;</tspan> DEVAGENT-TS&#160;&#160;&#160;<tspan fill="#3fb950">&#9650;</tspan> DHANHQ-MCP&#160;&#160;&#160;<tspan fill="#3fb950">&#9650;</tspan> OLLAMA-CLIENT</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;-1030 0" dur="24s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- border -->
+  <rect x="0.5" y="0.5" width="879" height="239" rx="12" stroke="#30363d"/>
+</svg>

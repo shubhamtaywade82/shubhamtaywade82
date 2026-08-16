@@ -1,0 +1,6 @@
+<svg width="880" height="200" viewBox="0 0 880 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="880" height="200" fill="#0d1117"/>
+  <text x="440" y="104" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="14" fill="#8b949e">
+    3D contribution graph renders after the first "build profile assets" workflow run
+  </text>
+</svg>
