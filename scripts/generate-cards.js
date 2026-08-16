@@ -41,7 +41,7 @@ const CARD_TEMPLATE = (project, stars) => `
   
   <text x="20" y="40" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="600" fill="#e6edf3">${project.label}</text>
   
-  <text x="20" y="70" font-family="'JetBrains Mono', monospace" font-size="12" fill="#8b949e">tradesdontlie/${project.name}</text>
+  <text x="20" y="70" font-family="'JetBrains Mono', monospace" font-size="12" fill="#8b949e">shubhamtaywade82/${project.name}</text>
   
   <g transform="translate(20, 100)">
     <circle cx="0" cy="0" r="3" fill="#${project.color}" opacity="0.8"/>
@@ -59,8 +59,8 @@ async function fetchStars(repo) {
   return new Promise((resolve) => {
     const options = {
       hostname: 'api.github.com',
-      path: `/repos/tradesdontlie/${repo}`,
-      headers: { 'User-Agent': 'tradesdontlie-cards' },
+      path: `/repos/shubhamtaywade82/${repo}`,
+      headers: { 'User-Agent': 'shubhamtaywade82-cards' },
     };
     https.get(options, (res) => {
       let data = '';

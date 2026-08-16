@@ -18,7 +18,7 @@
   
   <text x="20" y="40" font-family="'JetBrains Mono', monospace" font-size="16" font-weight="600" fill="#e6edf3">devagent-ts</text>
   
-  <text x="20" y="70" font-family="'JetBrains Mono', monospace" font-size="12" fill="#8b949e">tradesdontlie/devagent-ts</text>
+  <text x="20" y="70" font-family="'JetBrains Mono', monospace" font-size="12" fill="#8b949e">shubhamtaywade82/devagent-ts</text>
   
   <g transform="translate(20, 100)">
     <circle cx="0" cy="0" r="3" fill="#3fb950" opacity="0.8"/>
