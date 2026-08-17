@@ -4,24 +4,67 @@
 
 <br/>
 
-*I build the tools that sit between markets and machines — DhanHQ SDKs, trading bots, MCP servers, and AI agent runtimes. If a strategy can be automated, an API can be wrapped, or a workflow can be agentified, I'm probably shipping it — in Ruby, TypeScript, and Python.*
+**Software engineer building production-oriented infrastructure for trading systems, AI agents, and developer tooling.**
+
+*If a strategy can be automated, a broker API can be wrapped, or a workflow can be agentified, I'm probably shipping it — in Ruby, TypeScript, and Python.*
 
 </div>
 
-## 📈 shipping
+## 🎯 focus
+
+<table>
+<tr>
+<td valign="top" width="33%">
+
+**Trading Infrastructure**
+- Market data & broker APIs
+- WebSocket streaming
+- Order execution & risk controls
+- Backtesting & strategy research
+
+</td>
+<td valign="top" width="33%">
+
+**AI & Agent Infrastructure**
+- Agent runtimes & orchestration
+- Tool calling / MCP servers
+- Local LLMs (Ollama)
+- Coding agents
+
+</td>
+<td valign="top" width="33%">
+
+**Engineering**
+- Ruby / Rails, TypeScript, Python
+- PostgreSQL, Redis, SQLite
+- Docker, GitHub Actions
+- SDK & API design
+
+</td>
+</tr>
+</table>
+
+## 🏗️ featured engineering
 
 <div align="center">
 
-<a href="https://github.com/shubhamtaywade82/dhanhq-ts"><img src="assets/cards/dhanhq-ts.svg" alt="dhanhq-ts" width="420"/></a>
 <a href="https://github.com/shubhamtaywade82/dhanhq-client"><img src="assets/cards/dhanhq-client.svg" alt="dhanhq-client" width="420"/></a>
-<a href="https://github.com/shubhamtaywade82/trading-agent-ts"><img src="assets/cards/trading-agent-ts.svg" alt="trading-agent-ts" width="420"/></a>
-<a href="https://github.com/shubhamtaywade82/devagent-ts"><img src="assets/cards/devagent-ts.svg" alt="devagent-ts" width="420"/></a>
-<a href="https://github.com/shubhamtaywade82/dhanhq-mcp"><img src="assets/cards/dhanhq-mcp.svg" alt="dhanhq-mcp" width="420"/></a>
-<a href="https://github.com/shubhamtaywade82/ollama-client"><img src="assets/cards/ollama-client.svg" alt="ollama-client" width="420"/></a>
+<a href="https://github.com/shubhamtaywade82/devagent"><img src="assets/cards/devagent.svg" alt="devagent" width="420"/></a>
+<a href="https://github.com/shubhamtaywade82/coindcx-client"><img src="assets/cards/coindcx-client.svg" alt="coindcx-client" width="420"/></a>
+<a href="https://github.com/shubhamtaywade82/agent-runtime"><img src="assets/cards/agent-runtime.svg" alt="agent-runtime" width="420"/></a>
+<a href="https://github.com/shubhamtaywade82/market-data-service"><img src="assets/cards/market-data-service.svg" alt="market-data-service" width="420"/></a>
+<a href="https://github.com/shubhamtaywade82/backtest_engine"><img src="assets/cards/backtest_engine.svg" alt="backtest_engine" width="420"/></a>
 
 <sub>cards regenerate weekly with live star counts — no third-party stat services to break</sub>
 
 </div>
+
+01. **[dhanhq-client](https://github.com/shubhamtaywade82/dhanhq-client)** — Production-oriented Ruby SDK for the Dhan API v2: typed domain models, resilient WebSocket infrastructure, token lifecycle management, validation contracts, dry-run guardrails, and order audit logging.
+02. **[devagent](https://github.com/shubhamtaywade82/devagent)** — Local-first, controller-driven coding agent: bounded execution loops, Planner → Developer → Tester → Reviewer, repo-aware retrieval, sandboxed tool execution, session memory.
+03. **[coindcx-client](https://github.com/shubhamtaywade82/coindcx-client)** — Ruby client for CoinDCX spot & futures trading infrastructure, with reconnecting WebSockets, liveness checks, and explicit at-least-once delivery semantics.
+04. **[agent-runtime](https://github.com/shubhamtaywade82/agent-runtime)** — Execution and orchestration infrastructure for AI agents.
+05. **[market-data-service](https://github.com/shubhamtaywade82/market-data-service)** — Market-data infrastructure for algorithmic trading systems.
+06. **[backtest_engine](https://github.com/shubhamtaywade82/backtest_engine)** — Backtesting engine for quantitative strategy research.
 
 ## 🧰 stack
 

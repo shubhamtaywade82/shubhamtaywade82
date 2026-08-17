@@ -12,12 +12,12 @@ from xml.sax.saxutils import escape
 
 OWNER = "shubhamtaywade82"
 REPOS = [
-    "dhanhq-ts",
     "dhanhq-client",
-    "trading-agent-ts",
-    "devagent-ts",
-    "dhanhq-mcp",
-    "ollama-client",
+    "devagent",
+    "coindcx-client",
+    "agent-runtime",
+    "market-data-service",
+    "backtest_engine",
 ]
 OUT_DIR = os.path.join(os.path.dirname(__file__), "..", "assets", "cards")
 
