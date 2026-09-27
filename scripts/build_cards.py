@@ -12,12 +12,12 @@ from xml.sax.saxutils import escape
 
 OWNER = "shubhamtaywade82"
 REPOS = [
+    "nexum",
+    "dhanhq-sdk",
+    "ollama-sdk",
     "dhanhq-client",
-    "devagent",
-    "coindcx-client",
-    "agent-runtime",
-    "market-data-service",
-    "backtest_engine",
+    "axis-nexus",
+    "ollama-client",
 ]
 OUT_DIR = os.path.join(os.path.dirname(__file__), "..", "assets", "cards")
 

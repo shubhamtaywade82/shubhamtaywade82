@@ -6,77 +6,66 @@
 
 **Software engineer building production-oriented infrastructure for trading systems, AI agents, and developer tooling.**
 
-*If a strategy can be automated, a broker API can be wrapped, or a workflow can be agentified, I'm probably shipping it — in Ruby, TypeScript, and Python.*
+*If a strategy can be automated, a broker API can be wrapped, or a workflow can be agentified, I'm probably shipping it — in TypeScript, Ruby, and Python.*
 
 </div>
 
-## 🎯 focus
-
-<table>
-<tr>
-<td valign="top" width="33%">
-
-**Trading Infrastructure**
-- Market data & broker APIs
-- WebSocket streaming
-- Order execution & risk controls
-- Backtesting & strategy research
-
-</td>
-<td valign="top" width="33%">
-
-**AI & Agent Infrastructure**
-- Agent runtimes & orchestration
-- Tool calling / MCP servers
-- Local LLMs (Ollama)
-- Coding agents
-
-</td>
-<td valign="top" width="33%">
-
-**Engineering**
-- Ruby / Rails, TypeScript, Python
-- PostgreSQL, Redis, SQLite
-- Docker, GitHub Actions
-- SDK & API design
-
-</td>
-</tr>
-</table>
-
-## 🏗️ featured engineering
+## 🤖 flagship
 
 <div align="center">
 
+**[nexum](https://github.com/shubhamtaywade82/nexum)** — autonomous software engineering, from task to pull request.
+Agent runtime, tool gateway, semantic memory, hybrid RAG, multi-agent coordination, and a CLI. *(Developer Preview 2.0.0-alpha, successor to devagent-ts)*
+
+</div>
+
+## 📦 published packages
+
+**npm** — [`@nemesis-oss`](https://www.npmjs.com/org/nemesis-oss) scope
+
+| Package | Version | What it does |
+|---------|---------|---------------|
+| [`@nemesis-oss/dhanhq-sdk`](https://www.npmjs.com/package/@nemesis-oss/dhanhq-sdk) | 1.1.0 | TypeScript SDK for DhanHQ v2 — REST, WebSocket feed, option analytics, risk pipeline, MCP server |
+| [`@nemesis-oss/ollama-sdk`](https://www.npmjs.com/package/@nemesis-oss/ollama-sdk) | 1.3.0 | TypeScript SDK for Ollama — native fetch, HA failover, tool calling, OpenAI/Anthropic bridges, MCP |
+| [`@nemesis-oss/binance-sdk`](https://www.npmjs.com/package/@nemesis-oss/binance-sdk) | 3.0.0 | Spot/USD-M/COIN-M Futures/Margin/Wallet, HMAC/Ed25519/RSA signing, MCP server |
+| [`@nemesis-oss/coindcx-sdk`](https://www.npmjs.com/package/@nemesis-oss/coindcx-sdk) | 1.2.0 | Spot/Margin/Futures for CoinDCX, local paper engine, MCP toolkits |
+| [`@nemesis-oss/agentic-runtime`](https://www.npmjs.com/package/@nemesis-oss/agentic-runtime) | 0.2.1 | Model-agnostic autonomous agent runtime — Brain/Hands/Memory/Loop |
+| [`@nemesis-oss/devagent-ts`](https://www.npmjs.com/package/@nemesis-oss/devagent-ts) | 1.0.0 | Terminal coding-agent runtime, Docker sandbox, LSP intelligence |
+
+**RubyGems**
+
+| Gem | Version | Downloads |
+|-----|---------|-----------|
+| [`DhanHQ`](https://rubygems.org/gems/DhanHQ) | 3.4.0 | 12.5k+ |
+| [`ollama-client`](https://rubygems.org/gems/ollama-client) | 1.4.0 | production-safe Ruby AI SDK for Ollama |
+
+## 📈 shipping
+
+<div align="center">
+
+<a href="https://github.com/shubhamtaywade82/nexum"><img src="assets/cards/nexum.svg" alt="nexum" width="420"/></a>
+<a href="https://github.com/shubhamtaywade82/dhanhq-sdk"><img src="assets/cards/dhanhq-sdk.svg" alt="dhanhq-sdk" width="420"/></a>
+<a href="https://github.com/shubhamtaywade82/ollama-sdk"><img src="assets/cards/ollama-sdk.svg" alt="ollama-sdk" width="420"/></a>
 <a href="https://github.com/shubhamtaywade82/dhanhq-client"><img src="assets/cards/dhanhq-client.svg" alt="dhanhq-client" width="420"/></a>
-<a href="https://github.com/shubhamtaywade82/devagent"><img src="assets/cards/devagent.svg" alt="devagent" width="420"/></a>
-<a href="https://github.com/shubhamtaywade82/coindcx-client"><img src="assets/cards/coindcx-client.svg" alt="coindcx-client" width="420"/></a>
-<a href="https://github.com/shubhamtaywade82/agent-runtime"><img src="assets/cards/agent-runtime.svg" alt="agent-runtime" width="420"/></a>
-<a href="https://github.com/shubhamtaywade82/market-data-service"><img src="assets/cards/market-data-service.svg" alt="market-data-service" width="420"/></a>
-<a href="https://github.com/shubhamtaywade82/backtest_engine"><img src="assets/cards/backtest_engine.svg" alt="backtest_engine" width="420"/></a>
+<a href="https://github.com/shubhamtaywade82/axis-nexus"><img src="assets/cards/axis-nexus.svg" alt="axis-nexus" width="420"/></a>
+<a href="https://github.com/shubhamtaywade82/ollama-client"><img src="assets/cards/ollama-client.svg" alt="ollama-client" width="420"/></a>
 
 <sub>cards regenerate weekly with live star counts — no third-party stat services to break</sub>
 
 </div>
 
-01. **[dhanhq-client](https://github.com/shubhamtaywade82/dhanhq-client)** — Production-oriented Ruby SDK for the Dhan API v2: typed domain models, resilient WebSocket infrastructure, token lifecycle management, validation contracts, dry-run guardrails, and order audit logging.
-02. **[devagent](https://github.com/shubhamtaywade82/devagent)** — Local-first, controller-driven coding agent: bounded execution loops, Planner → Developer → Tester → Reviewer, repo-aware retrieval, sandboxed tool execution, session memory.
-03. **[coindcx-client](https://github.com/shubhamtaywade82/coindcx-client)** — Ruby client for CoinDCX spot & futures trading infrastructure, with reconnecting WebSockets, liveness checks, and explicit at-least-once delivery semantics.
-04. **[agent-runtime](https://github.com/shubhamtaywade82/agent-runtime)** — Execution and orchestration infrastructure for AI agents.
-05. **[market-data-service](https://github.com/shubhamtaywade82/market-data-service)** — Market-data infrastructure for algorithmic trading systems.
-06. **[backtest_engine](https://github.com/shubhamtaywade82/backtest_engine)** — Backtesting engine for quantitative strategy research.
-
 ## 🧰 stack
 
 <div align="center">
 
-![Ruby](https://img.shields.io/badge/Ruby_·_Rails-0d1117?style=for-the-badge&logo=ruby&logoColor=3fb950)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=for-the-badge&logo=typescript&logoColor=3fb950)
+![Ruby](https://img.shields.io/badge/Ruby_·_Rails-0d1117?style=for-the-badge&logo=ruby&logoColor=3fb950)
 ![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3fb950)
+![Rust](https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=3fb950)
 ![DhanHQ](https://img.shields.io/badge/DhanHQ_API-0d1117?style=for-the-badge&logo=stockx&logoColor=3fb950)
+![Binance](https://img.shields.io/badge/Binance_API-0d1117?style=for-the-badge&logo=binance&logoColor=3fb950)
 ![MCP](https://img.shields.io/badge/MCP_Servers-0d1117?style=for-the-badge&logo=modelcontextprotocol&logoColor=3fb950)
 ![Ollama](https://img.shields.io/badge/Ollama_·_Local_LLMs-0d1117?style=for-the-badge&logo=ollama&logoColor=3fb950)
-![Rust](https://img.shields.io/badge/Rust-0d1117?style=for-the-badge&logo=rust&logoColor=3fb950)
 
 </div>
 
@@ -84,55 +73,66 @@
 
 ### DhanHQ ecosystem
 
-End-to-end programmatic trading on Indian exchanges (NSE/BSE/MCX) — from low-level API clients to live trading bots and agent frameworks.
+End-to-end programmatic trading on Indian exchanges (NSE/BSE/MCX) — from low-level API clients to live trading bots.
 
 | Project | Description |
 |---------|-------------|
-| [**dhanhq-ts**](https://github.com/shubhamtaywade82/dhanhq-ts) | TypeScript SDK for DhanHQ v2 API — WebSocket market feed, order management, option Greeks, technical analysis, risk pipeline, MCP server, and agent toolkit. |
-| [**dhanhq-client**](https://github.com/shubhamtaywade82/dhanhq-client) | Ruby SDK for the Dhan API — ActiveModel-style models, WebSocket streaming with auto-reconnect, order management, token lifecycle, pre-trade risk checks, and Rails integration. |
-| [**dhanhq-charts**](https://github.com/shubhamtaywade82/dhanhq-charts) | Real-time charting for DhanHQ market data feeds. |
-| [**dhanhq-mcp**](https://github.com/shubhamtaywade82/dhanhq-mcp) | MCP server integrating Dhan trade execution with AI agent runtimes. |
-| [**algo_trading_api**](https://github.com/shubhamtaywade82/algo_trading_api) | Integrated trading API built on DhanHQ. |
+| [**dhanhq-sdk**](https://github.com/shubhamtaywade82/dhanhq-sdk) | TypeScript/Node.js SDK for DhanHQ v2 — WebSocket feed, option Greeks, risk pipeline, MCP server. Published as `@nemesis-oss/dhanhq-sdk`. |
+| [**dhanhq-client**](https://github.com/shubhamtaywade82/dhanhq-client) | Ruby SDK for the Dhan API v2 — ActiveModel-style models, auto-reconnecting WebSocket, order lifecycle, Rails integration. Published as gem `DhanHQ` (12.5k+ downloads). |
+| [**dhanhq-mcp**](https://github.com/shubhamtaywade82/dhanhq-mcp) | Model Context Protocol adapter exposing DhanHQ trading services to AI agents. |
+| [**dhanhq-charts**](https://github.com/shubhamtaywade82/dhanhq-charts) | React/TypeScript trading dashboard — NIFTY/SENSEX views, SMC swing highs/lows, TradingView-style charts. |
+| [**algo_trading_api**](https://github.com/shubhamtaywade82/algo_trading_api) | DhanHQ-integrated trading API. |
+| [**axis-nexus**](https://github.com/shubhamtaywade82/axis-nexus) | Autonomous options trading system on DhanHQ v2 — backend + control-plane frontend, built on `dhanhq-sdk`. |
 
-### Trading infrastructure
-
-| Project | Description |
-|---------|-------------|
-| [**trading-agent-ts**](https://github.com/shubhamtaywade82/trading-agent-ts) | TypeScript trading agent with signal processing and execution. |
-| [**trading-concepts-ts**](https://github.com/shubhamtaywade82/trading-concepts-ts) | Core trading concepts and primitives in TypeScript. |
-| [**delta_exchange_bot**](https://github.com/shubhamtaywade82/delta_exchange_bot) | Automated trading bot for Delta Exchange. |
-| [**paper_exchange**](https://github.com/shubhamtaywade82/paper_exchange) | Paper trading exchange simulator in Ruby. |
-| [**alpha_research**](https://github.com/shubhamtaywade82/alpha_research) | Trading signal research and alpha generation. |
-| [**crypto-trader**](https://github.com/shubhamtaywade82/crypto-trader) | Python-based cryptocurrency trading system. |
-| [**nemesis-crypto-trading**](https://github.com/shubhamtaywade82/nemesis-crypto-trading) | High-performance crypto trading engine in Rust. |
-| [**algo_scalper_api**](https://github.com/shubhamtaywade82/algo_scalper_api) | Algorithmic scalping API for live markets. |
-| [**algo_scalper_python**](https://github.com/shubhamtaywade82/algo_scalper_python) | Python-based algorithmic scalping strategies. |
-| [**pineforge-platform**](https://github.com/shubhamtaywade82/pineforge-platform) | Platform for PineScript strategy development and backtesting. |
-| [**pinescript-skills**](https://github.com/shubhamtaywade82/pinescript-skills) | PineScript skill collection for TradingView indicators and strategies. |
-| [**binance-client-js**](https://github.com/shubhamtaywade82/binance-client-js) | JavaScript client for the Binance API. |
-
-### AI & agent runtimes
+### Trading agents & systems
 
 | Project | Description |
 |---------|-------------|
-| [**devagent-ts**](https://github.com/shubhamtaywade82/devagent-ts) | TypeScript developer automation framework. |
-| [**devagent-py**](https://github.com/shubhamtaywade82/devagent-py) | Python developer agent runtime. |
-| [**nemesis-ai**](https://github.com/shubhamtaywade82/nemesis-ai) | AI agent platform and orchestration. |
-| [**neeti**](https://github.com/shubhamtaywade82/neeti) | AI decision engine and policy framework. |
-| [**ollama-client**](https://github.com/shubhamtaywade82/ollama-client) | Ruby client for the Ollama API — local LLM inference. |
-| [**ollama-client-js**](https://github.com/shubhamtaywade82/ollama-client-js) | TypeScript client for the Ollama API. |
-| [**ollama_agent**](https://github.com/shubhamtaywade82/ollama_agent) | Ruby agent framework backed by Ollama models. |
-| [**ollama-server**](https://github.com/shubhamtaywade82/ollama-server) | Python server infrastructure for Ollama deployments. |
-| [**ollama-ecosystem**](https://github.com/shubhamtaywade82/ollama-ecosystem) | Tools, patterns, and integrations for the Ollama ecosystem. |
+| [**vyuha-options-agent**](https://github.com/shubhamtaywade82/vyuha-options-agent) | Autonomous options execution agent for NIFTY/SENSEX using DhanHQ v2 + local SLMs via Ollama. |
+| [**trading-agent-ts**](https://github.com/shubhamtaywade82/trading-agent-ts) | Agentic AI trading bot built on `binance-sdk`, `ollama-sdk`, and `agentic-runtime`. |
+| [**crypto-trading-agent**](https://github.com/shubhamtaywade82/crypto-trading-agent) | Binance USD-M perpetuals agent — multi-strategy signals, Ollama LLM veto layer, TUI cockpit. |
+| [**crypto-agent**](https://github.com/shubhamtaywade82/crypto-agent) | Agentic crypto futures system with a deterministic trading kernel and Gemma-4 (via `ollama-sdk`) as the intelligence layer. |
+| [**paper-broker**](https://github.com/shubhamtaywade82/paper-broker) | Crypto futures paper-trading engine on live Binance data, with a real-time WS dashboard. |
+| [**paper_exchange**](https://github.com/shubhamtaywade82/paper_exchange) | Rails exchange simulator — Indian equity/F&O (DhanHQ) and crypto futures (Binance/CoinDCX) behind one API. |
+| [**algo_scalper_api**](https://github.com/shubhamtaywade82/algo_scalper_api) | Autonomous intraday options scalper for NIFTY/BANKNIFTY/SENSEX — Supertrend + ADX + SMC signals. |
+| [**algo_scalper_python**](https://github.com/shubhamtaywade82/algo_scalper_python) | Unified DhanHQ algo-options monorepo, consolidated from 7 Python projects. |
+| [**market-intelligence**](https://github.com/shubhamtaywade82/market-intelligence) | Deterministic market-event detection and counterfactual research engine for systematic trading. |
+| [**alpha_research**](https://github.com/shubhamtaywade82/alpha_research) | Symbol-differentiated signal engine for USDS-M perpetuals (research stage). |
+| [**nemesis-crypto-trading**](https://github.com/shubhamtaywade82/nemesis-crypto-trading) | Hybrid Rust/Python crypto trading engine — Binance Futures WS, deterministic bar building. |
+| [**trading-concepts-ts**](https://github.com/shubhamtaywade82/trading-concepts-ts) | Framework-agnostic SMC + ICT + price-action analysis engine. |
+| [**smc-backtester**](https://github.com/shubhamtaywade82/smc-backtester) | Pure-Ruby SMC/ICT rules engine and backtest simulator. |
+| [**chart-sdk**](https://github.com/shubhamtaywade82/chart-sdk) | Broker-agnostic trading chart SDK on TradingView Lightweight Charts v5. |
+| [**pine-ts**](https://github.com/shubhamtaywade82/pine-ts) | Pine Script v6-inspired trading runtime for TypeScript. |
 
-### Other projects
+### AI agent runtimes & dev tooling
 
 | Project | Description |
 |---------|-------------|
+| [**nexum**](https://github.com/shubhamtaywade82/nexum) | Autonomous software-engineering agent — task to pull request. |
+| [**devagent**](https://github.com/shubhamtaywade82/devagent) | Local-first, controller-driven coding agent for Ruby projects (Planner → Developer → Tester → Reviewer). |
+| [**agentic-runtime**](https://github.com/shubhamtaywade82/agentic-runtime) | Model-agnostic autonomous agent runtime — Brain/Hands/Memory/Loop pillars, MCP-native. |
+| [**agentic-query**](https://github.com/shubhamtaywade82/agentic-query) | ORM-native AI query runtime for Rails/Node — LLM-interpreted questions with schema-aware authorization. |
+| [**agentic-chat**](https://github.com/shubhamtaywade82/agentic-chat) | Next.js playground visualizing a live ReAct (reason/act/observe) agent loop. |
+| [**toolery-ts**](https://github.com/shubhamtaywade82/toolery-ts) | Deterministic tool-calling benchmark for LLM endpoints. |
+| [**nodeforge**](https://github.com/shubhamtaywade82/nodeforge) | Orchestration control plane unifying TS/ESLint/Vitest/Docker/Git behind one model, for IDEs and AI agents. |
+| [**nemesis-ai**](https://github.com/shubhamtaywade82/nemesis-ai) | Shared AI runtime backing the Nemesis agent projects. |
+| [**ruby-agent-skills**](https://github.com/shubhamtaywade82/ruby-agent-skills) | Agent-executable Ruby/Rails engineering knowledge, packaged as installable skill packs. |
+
+### Exchange SDKs & clients
+
+| Project | Description |
+|---------|-------------|
+| [**ollama-client**](https://github.com/shubhamtaywade82/ollama-client) | Ruby AI SDK for Ollama — deterministic, contract-driven, zero magic. Gem `ollama-client`. |
+| [**ollama-client-js**](https://github.com/shubhamtaywade82/ollama-client-js) | TypeScript SDK wrapping `ollama-js` with retries, failover, structured outputs, MCP adapter. |
+| [**binance-sdk**](https://github.com/shubhamtaywade82/binance-sdk) | Full Spot/Futures/Margin coverage, zod-validated, MCP server. |
+| [**coindcx-sdk**](https://github.com/shubhamtaywade82/coindcx-sdk) | CoinDCX Spot/Margin/Futures with a local paper-trading engine. |
+
+### Other
+
+| Project | Description |
+|---------|-------------|
+| [**neeti**](https://github.com/shubhamtaywade82/neeti) | Chanakya Niti–based AI advisor — structured RAG over 455 sutras, ReAct + reflection agent. |
 | [**expense_pro**](https://github.com/shubhamtaywade82/expense_pro) | Full-stack expense tracking application. |
-| [**janus**](https://github.com/shubhamtaywade82/janus) | Multi-protocol gateway service. |
-| [**aegis**](https://github.com/shubhamtaywade82/aegis) | Authentication and authorization framework in Ruby. |
-| [**chatbot**](https://github.com/shubhamtaywade82/chatbot) | Ruby conversational AI chatbot. |
 
 ## 📊 the tape
 
