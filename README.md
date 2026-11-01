@@ -16,6 +16,7 @@
 
 **[nexum](https://github.com/shubhamtaywade82/nexum)** — autonomous software engineering, from task to pull request.
 Agent runtime, tool gateway, semantic memory, hybrid RAG, multi-agent coordination, and a CLI. *(Developer Preview 2.0.0-alpha, successor to devagent-ts)*
+<img src="koi/koi.gif" width="256" alt="My koi" />
 
 </div>
 
