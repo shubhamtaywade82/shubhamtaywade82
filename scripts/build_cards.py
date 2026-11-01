@@ -15,9 +15,11 @@ REPOS = [
     "nexum",
     "dhanhq-sdk",
     "ollama-sdk",
+    "binance-sdk",
     "dhanhq-client",
     "axis-nexus",
     "ollama-client",
+    "contractful",
 ]
 OUT_DIR = os.path.join(os.path.dirname(__file__), "..", "assets", "cards")
 

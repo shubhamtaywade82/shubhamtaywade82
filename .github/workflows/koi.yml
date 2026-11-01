@@ -1,5 +1,3 @@
-# Copy into your profile repository as .github/workflows/koi.yml, then embed
-# <img src="koi/koi.gif" width="256" alt="My koi"> in its README.md.
 name: Koi
 
 on:
@@ -13,7 +11,10 @@ on:
 permissions:
   contents: write
 
-concurrency: koi
+# Shared with assets.yml: every job that pushes to main takes this lock in turn.
+concurrency:
+  group: profile-main
+  cancel-in-progress: false
 
 jobs:
   koi:
@@ -35,4 +36,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit --quiet --message "koi: draw the day's koi"
-          git push --quiet
+          git pull --rebase --quiet origin main
+          git push --quiet origin HEAD:main
