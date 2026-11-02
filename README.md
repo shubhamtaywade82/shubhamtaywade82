@@ -44,9 +44,9 @@ Agent runtime, tool gateway, semantic memory, hybrid RAG, multi-agent coordinati
 
 | Gem | Version | Downloads | What it does |
 |-----|---------|-----------|--------------|
-| [`DhanHQ`](https://rubygems.org/gems/DhanHQ) | 4.1.1 | 14.4k+ | Ruby SDK for Dhan API v2 — ActiveModel-style models, auto-reconnecting WebSocket, order lifecycle |
-| [`ollama-client`](https://rubygems.org/gems/ollama-client) | 1.4.0 | 13.4k+ | Deterministic, contract-driven Ruby client for the Ollama API |
-| [`contractful`](https://rubygems.org/gems/contractful) | 0.1.0 | 94 | Contract-first Ruby HTTP client — closed request schemas, open responses, resilient transport |
+| [`DhanHQ`](https://rubygems.org/gems/DhanHQ) | 4.1.1 | 14.5k+ | Ruby SDK for Dhan API v2 — ActiveModel-style models, auto-reconnecting WebSocket, order lifecycle |
+| [`ollama-client`](https://rubygems.org/gems/ollama-client) | 1.4.0 | 13.5k+ | Deterministic, contract-driven Ruby client for the Ollama API |
+| [`contractful`](https://rubygems.org/gems/contractful) | 0.1.0 | 159 | Contract-first Ruby HTTP client — closed request schemas, open responses, resilient transport |
 
 <!-- packages:end -->
 
