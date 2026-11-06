@@ -10,7 +10,7 @@
 
 *I turn complex APIs and workflows into systems people can build on — across TypeScript, Ruby, and Python.*
 
-[![GitHub](https://img.shields.io/badge/GitHub- shubhamtaywade82-0d1117?style=flat-square&logo=github)](https://github.com/shubhamtaywade82) [![npm](https://img.shields.io/badge/npm-%40nemesis--oss-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/org/nemesis-oss) [![RubyGems](https://img.shields.io/badge/RubyGems-packages-red?style=flat-square&logo=rubygems&logoColor=white)](https://rubygems.org/profiles/shubhamtaywade82)
+[![GitHub](https://img.shields.io/badge/GitHub-shubhamtaywade82-0d1117?style=flat-square&logo=github)](https://github.com/shubhamtaywade82) [![npm](https://img.shields.io/badge/npm-%40nemesis--oss-CB3837?style=flat-square&logo=npm&logoColor=white)](https://www.npmjs.com/org/nemesis-oss) [![RubyGems](https://img.shields.io/badge/RubyGems-packages-red?style=flat-square&logo=rubygems&logoColor=white)](https://rubygems.org/profiles/shubhamtaywade82)
 
 </div>
 
@@ -28,7 +28,7 @@
 
 An agent runtime, tool gateway, semantic memory, hybrid RAG, multi-agent coordination, and CLI. Currently a developer preview; not yet published to npm.
 
-[Explore Nexum →](https://github.com/shubhamtaywade82/nexum)
+[Explore Nexum →](https://github.com/shubhamtaywade82/nexum) · [![Stars](https://img.shields.io/github/stars/shubhamtaywade82/nexum?style=flat-square&label=stars)](https://github.com/shubhamtaywade82/nexum/stargazers) [![Forks](https://img.shields.io/github/forks/shubhamtaywade82/nexum?style=flat-square&label=forks)](https://github.com/shubhamtaywade82/nexum/forks)
 
 </td>
 <td width="50%" valign="top">
@@ -53,27 +53,31 @@ SDKs and tools for DhanHQ, Binance, and CoinDCX, alongside research, charting, a
 
 ## 📦 Published packages
 
-### npm
+Download badges are live registry metrics: npm shows **downloads in the last week**; RubyGems shows **all-time downloads**. Counts are provided by Shields.io and may have a short update delay.
 
-| Package | What it does |
-|---|---|
-| [`@nemesis-oss/dhanhq-sdk`](https://www.npmjs.com/package/@nemesis-oss/dhanhq-sdk) | TypeScript SDK for DhanHQ v2: REST, WebSocket, options analytics, and MCP tools |
-| [`@nemesis-oss/ollama-sdk`](https://www.npmjs.com/package/@nemesis-oss/ollama-sdk) | Ollama SDK with tool calling, failover, and provider bridges |
-| [`@nemesis-oss/binance-sdk`](https://www.npmjs.com/package/@nemesis-oss/binance-sdk) | Binance Spot, Futures, Margin, and Wallet APIs |
-| [`@nemesis-oss/coindcx-sdk`](https://www.npmjs.com/package/@nemesis-oss/coindcx-sdk) | CoinDCX Spot, Margin, and Futures SDK |
-| [`@nemesis-oss/agentic-runtime`](https://www.npmjs.com/package/@nemesis-oss/agentic-runtime) | Model-agnostic runtime for agent workflows |
-| [`@nemesis-oss/devagent-ts`](https://www.npmjs.com/package/@nemesis-oss/devagent-ts) | Terminal coding-agent runtime *(legacy; succeeded by Nexum)* |
-| [`@nemesis-oss/tg-format`](https://www.npmjs.com/package/@nemesis-oss/tg-format) | Type-safe Telegram message formatting |
-| [`@nemesis-oss/termina-core`](https://www.npmjs.com/package/@nemesis-oss/termina-core) · [`termina-ui`](https://www.npmjs.com/package/@nemesis-oss/termina-ui) · [`termina-genui`](https://www.npmjs.com/package/@nemesis-oss/termina-genui) | Terminal rendering, UI components, and generative UI |
-| [`contractful-ts`](https://www.npmjs.com/package/contractful-ts) | Contract-first HTTP and WebSocket client for TypeScript |
+### npm · weekly downloads
 
-### RubyGems
+| Package | What it does | Downloads / week |
+|---|---|---|
+| [`@nemesis-oss/dhanhq-sdk`](https://www.npmjs.com/package/@nemesis-oss/dhanhq-sdk) | TypeScript SDK for DhanHQ v2: REST, WebSocket, options analytics, and MCP tools | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Fdhanhq-sdk?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/dhanhq-sdk) |
+| [`@nemesis-oss/ollama-sdk`](https://www.npmjs.com/package/@nemesis-oss/ollama-sdk) | Ollama SDK with tool calling, failover, and provider bridges | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Follama-sdk?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/ollama-sdk) |
+| [`@nemesis-oss/binance-sdk`](https://www.npmjs.com/package/@nemesis-oss/binance-sdk) | Binance Spot, Futures, Margin, and Wallet APIs | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Fbinance-sdk?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/binance-sdk) |
+| [`@nemesis-oss/coindcx-sdk`](https://www.npmjs.com/package/@nemesis-oss/coindcx-sdk) | CoinDCX Spot, Margin, and Futures SDK | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Fcoindcx-sdk?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/coindcx-sdk) |
+| [`@nemesis-oss/agentic-runtime`](https://www.npmjs.com/package/@nemesis-oss/agentic-runtime) | Model-agnostic runtime for agent workflows | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Fagentic-runtime?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/agentic-runtime) |
+| [`@nemesis-oss/devagent-ts`](https://www.npmjs.com/package/@nemesis-oss/devagent-ts) | Terminal coding-agent runtime *(legacy; succeeded by Nexum)* | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Fdevagent-ts?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/devagent-ts) |
+| [`@nemesis-oss/tg-format`](https://www.npmjs.com/package/@nemesis-oss/tg-format) | Type-safe Telegram message formatting | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Ftg-format?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/tg-format) |
+| [`@nemesis-oss/termina-core`](https://www.npmjs.com/package/@nemesis-oss/termina-core) | Terminal rendering engine | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Ftermina-core?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/termina-core) |
+| [`@nemesis-oss/termina-ui`](https://www.npmjs.com/package/@nemesis-oss/termina-ui) | Terminal UI component kit | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Ftermina-ui?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/termina-ui) |
+| [`@nemesis-oss/termina-genui`](https://www.npmjs.com/package/@nemesis-oss/termina-genui) | Generative UI for terminal applications | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Ftermina-genui?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/termina-genui) |
+| [`contractful-ts`](https://www.npmjs.com/package/contractful-ts) | Contract-first HTTP and WebSocket client for TypeScript | [![npm weekly downloads](https://img.shields.io/npm/dw/contractful-ts?logo=npm&label=weekly)](https://www.npmjs.com/package/contractful-ts) |
 
-| Gem | What it does |
-|---|---|
-| [`DhanHQ`](https://rubygems.org/gems/DhanHQ) | Ruby client for Dhan API v2 |
-| [`ollama-client`](https://rubygems.org/gems/ollama-client) | Contract-driven Ruby client for Ollama |
-| [`contractful`](https://rubygems.org/gems/contractful) | Contract-first Ruby HTTP client |
+### RubyGems · all-time downloads
+
+| Gem | What it does | Total downloads |
+|---|---|---|
+| [`DhanHQ`](https://rubygems.org/gems/DhanHQ) | Ruby client for Dhan API v2 | [![RubyGems downloads](https://img.shields.io/gem/dt/DhanHQ?logo=rubygems&label=total)](https://rubygems.org/gems/DhanHQ) |
+| [`ollama-client`](https://rubygems.org/gems/ollama-client) | Contract-driven Ruby client for Ollama | [![RubyGems downloads](https://img.shields.io/gem/dt/ollama-client?logo=rubygems&label=total)](https://rubygems.org/gems/ollama-client) |
+| [`contractful`](https://rubygems.org/gems/contractful) | Contract-first Ruby HTTP client | [![RubyGems downloads](https://img.shields.io/gem/dt/contractful?logo=rubygems&label=total)](https://rubygems.org/gems/contractful) |
 
 ## ✨ Selected projects
 
