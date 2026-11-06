@@ -51,29 +51,24 @@ SDKs and tools for DhanHQ, Binance, and CoinDCX, alongside research, charting, a
 
 </div>
 
-## 📦 Published packages
+## 📦 Flagship packages
 
-Download badges are live registry metrics: npm shows **downloads in the last week**; RubyGems shows **all-time downloads**. Counts are provided by Shields.io and may have a short update delay.
+Live download metrics come from the official registries and are shown using Shields.io badges.
 
 ### npm · weekly downloads
 
-| Package | What it does | Downloads / week |
+| Package | What it does | Metric |
 |---|---|---|
-| [`@nemesis-oss/dhanhq-sdk`](https://www.npmjs.com/package/@nemesis-oss/dhanhq-sdk) | TypeScript SDK for DhanHQ v2: REST, WebSocket, options analytics, and MCP tools | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Fdhanhq-sdk?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/dhanhq-sdk) |
-| [`@nemesis-oss/ollama-sdk`](https://www.npmjs.com/package/@nemesis-oss/ollama-sdk) | Ollama SDK with tool calling, failover, and provider bridges | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Follama-sdk?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/ollama-sdk) |
+| [`@nemesis-oss/dhanhq-sdk`](https://www.npmjs.com/package/@nemesis-oss/dhanhq-sdk) | DhanHQ v2 SDK for market data, order flows, and option analytics | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Fdhanhq-sdk?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/dhanhq-sdk) |
+| [`@nemesis-oss/ollama-sdk`](https://www.npmjs.com/package/@nemesis-oss/ollama-sdk) | Local LLM tooling with tool calling and provider bridges | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Follama-sdk?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/ollama-sdk) |
 | [`@nemesis-oss/binance-sdk`](https://www.npmjs.com/package/@nemesis-oss/binance-sdk) | Binance Spot, Futures, Margin, and Wallet APIs | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Fbinance-sdk?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/binance-sdk) |
 | [`@nemesis-oss/coindcx-sdk`](https://www.npmjs.com/package/@nemesis-oss/coindcx-sdk) | CoinDCX Spot, Margin, and Futures SDK | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Fcoindcx-sdk?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/coindcx-sdk) |
 | [`@nemesis-oss/agentic-runtime`](https://www.npmjs.com/package/@nemesis-oss/agentic-runtime) | Model-agnostic runtime for agent workflows | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Fagentic-runtime?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/agentic-runtime) |
-| [`@nemesis-oss/devagent-ts`](https://www.npmjs.com/package/@nemesis-oss/devagent-ts) | Terminal coding-agent runtime *(legacy; succeeded by Nexum)* | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Fdevagent-ts?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/devagent-ts) |
-| [`@nemesis-oss/tg-format`](https://www.npmjs.com/package/@nemesis-oss/tg-format) | Type-safe Telegram message formatting | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Ftg-format?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/tg-format) |
-| [`@nemesis-oss/termina-core`](https://www.npmjs.com/package/@nemesis-oss/termina-core) | Terminal rendering engine | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Ftermina-core?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/termina-core) |
-| [`@nemesis-oss/termina-ui`](https://www.npmjs.com/package/@nemesis-oss/termina-ui) | Terminal UI component kit | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Ftermina-ui?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/termina-ui) |
-| [`@nemesis-oss/termina-genui`](https://www.npmjs.com/package/@nemesis-oss/termina-genui) | Generative UI for terminal applications | [![npm weekly downloads](https://img.shields.io/npm/dw/%40nemesis-oss%2Ftermina-genui?logo=npm&label=weekly)](https://www.npmjs.com/package/@nemesis-oss/termina-genui) |
 | [`contractful-ts`](https://www.npmjs.com/package/contractful-ts) | Contract-first HTTP and WebSocket client for TypeScript | [![npm weekly downloads](https://img.shields.io/npm/dw/contractful-ts?logo=npm&label=weekly)](https://www.npmjs.com/package/contractful-ts) |
 
 ### RubyGems · all-time downloads
 
-| Gem | What it does | Total downloads |
+| Gem | What it does | Metric |
 |---|---|---|
 | [`DhanHQ`](https://rubygems.org/gems/DhanHQ) | Ruby client for Dhan API v2 | [![RubyGems downloads](https://img.shields.io/gem/dt/DhanHQ?logo=rubygems&label=total)](https://rubygems.org/gems/DhanHQ) |
 | [`ollama-client`](https://rubygems.org/gems/ollama-client) | Contract-driven Ruby client for Ollama | [![RubyGems downloads](https://img.shields.io/gem/dt/ollama-client?logo=rubygems&label=total)](https://rubygems.org/gems/ollama-client) |
